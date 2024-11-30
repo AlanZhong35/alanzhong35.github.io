@@ -66,9 +66,11 @@ function App() {
             <Col md={8}>
               <h1 className="display-4 mb-3">About Me</h1>
               <p className="lead">
-              I am a highly motivated Computer Science/Mathematics student at UW-Madison (GPA 3.95),
-              experienced in internship & academic research programs. I am applying to Master's programs
-              in the field of Reinforcement Learning and Robotics.
+              I am a highly motivated Computer Science/Mathematics student at the University of Wisconsin-Madison. I am 
+              particularly excited to work with reinforcement learning, robotics, and software development. My current projects include researching 
+              multi-agent reinforcement learning by teaching robots how to play soccer for Robocup, and also
+              building simulations to predict food insecurity in the US.
+              Outside of computer science, I love to play the viola in orchestra and stay active for basketball and soccer. 
               </p>
             </Col>
           </Row>
@@ -86,9 +88,9 @@ function App() {
                 <li className="mb-3">
                   <strong>Agent Based Models for Quantifying Food Accessibility: Insights for Policy and Decision Making</strong>
                   <br />
-                  Rosemarie Santa Gonzalez, <strong>Alan Zhong</strong>, Charlie Haight, Alfonso Morales and Carlos Guzman
+                  Rosemarie Gonzalez, <strong>Alan Zhong</strong>, Charlie Haight, Nolan Hegge, Carlos Guzman and Alfonso Morales
                   <br />
-                  Submitted to TRISTAN25
+                  Submitted to TRISTAN2025 (Triennial Symposium on Transportation Analysis)
                   <a 
                     href={tristanPDF} 
                     className="text-primary ms-2"
