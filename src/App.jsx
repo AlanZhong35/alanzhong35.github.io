@@ -41,7 +41,7 @@ function App() {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">
               <Nav.Link href="#about">About</Nav.Link>
-              <Nav.Link href="#publications">Publications</Nav.Link>
+              <Nav.Link href="#manuscripts">Manuscripts</Nav.Link>
               <Nav.Link href="#education">Education</Nav.Link>
               <Nav.Link href="#experience">Experience</Nav.Link>
               <Nav.Link href="#contact">Contact</Nav.Link>
@@ -77,8 +77,8 @@ function App() {
         </section>
 
         {/* Publications Section */}
-        <section id="publications" className="mb-5">
-          <h2 className="mb-4">Publications</h2>
+        <section id="manuscripts" className="mb-5">
+          <h2 className="mb-4">Manuscripts</h2>
           <ImageTextCard 
             imageSrc={ABMimg} 
             title="Agent Based Model for Food Access"
@@ -164,6 +164,7 @@ function App() {
                 
                 <li>Second-authored research paper for FASS through NSF-sponsored 
                 ICICLE AI grant</li>
+                <li>Presented on the FASS work to computer science department and to stakeholders</li>
                 </ul>
               </p>
           </ImageTextCard>
