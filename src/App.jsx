@@ -9,6 +9,7 @@ import Madisonimg from './assets/pictures/uw-madison.jpg'
 import RoboCupimg from './assets/pictures/robocup.webp'
 import BMIimg from './assets/pictures/bmi.jpg'
 import DAKimg from './assets/pictures/dak.jpg'
+import ABMpresentimg from './assets/pictures/ABMpresent.jpg'
 function App() {
   const ImageTextCard = ({ imageSrc, title, children, imageAlt = "Section Image" }) => (
     <Card className="mb-4">
@@ -149,7 +150,7 @@ function App() {
               </p>
           </ImageTextCard>
           <ImageTextCard
-          imageSrc={ABMimg}
+          imageSrc={ABMpresentimg}
           title="Undergraduate Researcher @ Kaufman Lab"
           >
               <p>
