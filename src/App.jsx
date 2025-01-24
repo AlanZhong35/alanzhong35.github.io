@@ -117,7 +117,7 @@ function App() {
           
               <h5 className="mt-3">B.S. in Computer Science + Math Minor</h5>
               <p>
-                3.95/4.00 GPA
+                3.96/4.00 GPA
                 <br />
                 September 2022 - May 2025
               </p>
@@ -167,6 +167,23 @@ function App() {
                 ICICLE AI grant</li>
                 <li>Presented on the FASS work to computer science department and to stakeholders</li>
                 </ul>
+              </p>
+          </ImageTextCard>
+          <h3>Teaching</h3>
+          <br/>
+          <ImageTextCard imageSrc={Madisonimg}
+          title="Undergraduate Teaching Assistant/Peer Mentor (CS577)">
+            <p>
+                January 2025 - Present
+                <br />
+                <ul>
+                <li> Hosting office hours and discussion sections for students
+                   taking Introduction to Algorithms
+                </li>
+                <li>
+                  Preparing and teaching weekly study groups of 5-6 students in various algorithmic topics 
+                </li>
+              </ul>
               </p>
           </ImageTextCard>
           <h3>Industry</h3>
